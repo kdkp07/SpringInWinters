@@ -5,15 +5,15 @@ public class Address {
     private String city;
     private int pincode;
     public void setHouseno(int houseno) {
-        System.out.println("Inside sethouse");
+//        System.out.println("Inside sethouse");
         this.houseno = houseno;
     }
     public void setCity(String city) {
-        System.out.println("Inside setCity");
+//        System.out.println("Inside setCity");
         this.city = city;
     }
     public void setPincode(int pincode) {
-        System.out.println("Inside setpincode");
+//        System.out.println("Inside setpincode");
         this.pincode = pincode;
     }
     @Override
