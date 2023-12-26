@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class SpringConfigFile {
     @Bean
-    public Address createAddr(){
+    public Address createAddr1(){
         Address addr = new Address();
         addr.setPincode(123442);
         addr.setCity("Ujjain");
@@ -16,6 +16,14 @@ public class SpringConfigFile {
         return addr;
     }
 
+    @Bean
+    public Address createAddr2(){
+        Address addr = new Address();
+        addr.setPincode(522342);
+        addr.setCity("Indore");
+        addr.setHouseno(321);
+        return addr;
+    }
     @Bean
     public Student createStd(){
         Student std = new Student();
