@@ -1,12 +1,14 @@
 package in.kp.beans;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Student {
     private String name;
     private int rollno;
 
     @Autowired
+    @Qualifier("createAddr2")
     private Address address;
 
     public String getName() {
