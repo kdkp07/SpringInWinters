@@ -11,5 +11,7 @@ public class Main {
         System.out.println(person.getFriends().getClass().getName());
         System.out.println("=================================================================================================");
         System.out.println(person.getFee_structure().getClass().getName());
+        System.out.println("=================================================================================================");
+        System.out.println(person);
     }
 }
