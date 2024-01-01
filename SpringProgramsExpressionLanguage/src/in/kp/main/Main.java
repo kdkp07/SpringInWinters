@@ -8,6 +8,6 @@ public class Main {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("in/kp/resources/applicationContext.xml");
         Developer developer = context.getBean("developer",Developer.class);
-        System.out.println(developer.getLanguages());
+        System.out.println(developer);
     }
 }
